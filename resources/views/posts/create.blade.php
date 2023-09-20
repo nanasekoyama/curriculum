@@ -8,7 +8,7 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
     </head>
     <body class="antialiased">
-       <form acton="/posts" method="POST">
+       <form action="/posts" method="POST">
            @csrf
            <div class="title">
                <h2>Title</h2>

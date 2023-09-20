@@ -15,3 +15,5 @@ use App\Http\Controllers\PostController;      //追加
 Route::get('/', [PostController::class, 'index']);
 Route::get('/posts/create', [PostController::class,'create']);
 Route::get('/posts/{post}', [PostController::class ,'show']);
+Route::get('/posts/{post}/edit', [PostController::class, 'edit']);
+Route::put('posts/{post}', [PostControtter::class, 'update']);
