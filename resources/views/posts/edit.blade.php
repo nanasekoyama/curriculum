@@ -22,6 +22,9 @@
                     <input type='text' name="post[body]" value="{{ $post->body }}">
                 </div>           
                 <input type="submit" value="保存">
+                <div class="footer">
+                    <a href="/posts/{{ $post->id}}">戻る</a>
+                </div>
             </form> 
         </div>
     </body>
